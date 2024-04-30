@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Món Mới Phải Thử",
+        "img": "http://localhost:3001/public/img/monmoiphaithunew.png",
+        "type": "monmoiphaithu"
+    },
+    {
+        "name": "Trà Trái Cây - HiTea",
+        "img": "http://localhost:3001/public/img/tratraicay.png",
+        "type": "tratraicayhitea"
+    },
+    {
+        "name": "Trà Sữa - CloudTea",
+        "img": "http://localhost:3001/public/img/trasuacloudtea.png",
+        "type": "trasuacloudtea"
+    },
+    {
+        "name": "Trà Xanh - Chocolate",
+        "img": "http://localhost:3001/public/img/traxanhcloudtea.png",
+        "type": "traxanhcloudtea"
+    },
+    {
+        "name": "Đá Xay Frosty",
+        "img": "http://localhost:3001/public/img/daxayfrosty.png",
+        "type": "daxayfrosty"
+    },
+    {
+        "name": "Cà Phê - CloudFee",
+        "img": "http://localhost:3001/public/img/caphecloudfee.png",
+        "type": "caphecloudfee"
+    },
+    {
+        "name": "Bánh Ngọt",
+        "img": "http://localhost:3001/public/img/banhngot.png",
+        "type": "banhngot"
+    },
+    {
+        "name": "Bánh Mặn",
+        "img": "http://localhost:3001/public/img/banhman.png",
+        "type": "banhman"
+    },
+    {
+        "name": "Cơm Nhà",
+        "img": "http://localhost:3001/public/img/comnha.png",
+        "type": "comnha"
+    },
+    {
+        "name": "Món Nóng",
+        "img": "http://localhost:3001/public/img/monnong.png",
+        "type": "monnong"
+    },
+    {
+        "name": "Chai Fresh Không Đá",
+        "img": "http://localhost:3001/public/img/chaifreshkhongda.png",
+        "type": "chaifreshkhongda"
+    },
+    {
+        "name": "Cà Phê - Trà Đóng Gói",
+        "img": "http://localhost:3001/public/img/caphetradonggoi.png",
+        "type": "caphetradonggoi"
+    },
+    {
+        "name": "Topping",
+        "img": "http://localhost:3001/public/img/topping.png",
+        "type": "topping"
+    }
+]

@@ -8,7 +8,7 @@ app.use(morgan("dev"));
 app.use(cors({ credentials: true, origin: true }));
 app.use(cookieprs());
 app.use(express.json());
-app.use(express.static(__dirname + "/public/"));
+app.use(express.static(`${__dirname}`));
 
 const routeCoffe = require("./routes/coffeeRouter");
 const routeBill = require("./routes/billRouter");

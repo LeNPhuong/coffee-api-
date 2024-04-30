@@ -19,10 +19,10 @@ app.use("/app/api/bill", routeBill);
 app.use("/app/api/user", routeUser);
 
 app.use(function handleError(err, req, res, next) {
-    return res.status(404).json({
-        message: "Error",
-        data: err,
-    });
+  return res.status(404).json({
+    message: "Error",
+    data: err,
+  });
 });
 
 module.exports = app;

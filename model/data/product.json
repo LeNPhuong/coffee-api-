@@ -1,410 +1,410 @@
 [
-    {
-        "name": "Smoothie Xoài Nhiệt Đới Granola",
-        "price": 65000,
-        "img": "http://localhost:3001/public/img-product/xoai-granola.png",
-        "des": "Hương vị trái cây tươi mát gói trọn trong ly Smoothie Xoài Nhiệt Đới Granola. Xoài ngọt đậm quyện cùng sữa chua sánh mịn. Nhân đôi healthy với ngũ cốc Granola và topping hạt nổ sữa chua vui miệng.",
-        "size": [
-            { "name": "Nhỏ", "price": 0 },
-            { "name": "Vừa", "price": 4000 }
-        ],
-        "topping": [
-            { "name": "Trái Vải", "price": 10000 },
-            { "name": "Hạt Sen", "price": 10000 },
-            { "name": "Thạch Cà Phê", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 },
-            { "name": "Đào Miếng", "price": 10000 }
-        ],
-        "type": ["monmoiphaithu", "daxayfrosty"],
-        "active": true
-    },
-    {
-        "name": "Smoothie Phúc Bồn Tử Granola",
-        "price": 65000,
-        "img": "http://localhost:3001/public/img-product/phuc-bon-tu-granola.png",
-        "des": "Lấy đà vào hạ cùng Smoothie Phúc Bồn Tử Granola chua chua, ngọt ngọt. Hút một hơi mát lành với sữa chua sánh mịn, ngũ cốc Granola dinh dưỡng và hạt nổ sữa chua. Hạ gần bên ta!",
-        "size": [
-            { "name": "Nhỏ", "price": 0 },
-            { "name": "Vừa", "price": 4000 }
-        ],
-        "topping": [
-            { "name": "Trái Vải", "price": 10000 },
-            { "name": "Hạt Sen", "price": 10000 },
-            { "name": "Thạch Cà Phê", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 },
-            { "name": "Đào Miếng", "price": 10000 }
-        ],
-        "type": ["monmoiphaithu", "daxayfrosty"],
-        "active": true
-    },
-    {
-        "name": "Oolong Tứ Quý Vải",
-        "price": 49000,
-        "img": "http://localhost:3001/public/img-product/vai-xuan.png",
-        "des": "Đậm hương trà, thanh mát sắc xuân với Oolong Tứ Quý Vải. Cảm nhận hương hoa đầu mùa, hòa quyện cùng vị vải chín mọng căng tràn sức sống.",
-        "size": [
-            { "name": "Nhỏ", "price": 0 },
-            { "name": "Vừa", "price": 10000 },
-            { "name": "Lớn", "price": 16000 }
-        ],
-        "topping": [
-            { "name": "Trái Vải", "price": 10000 },
-            { "name": "Trái Nhãn", "price": 10000 },
-            { "name": "Kem Phô Mai Macchiato", "price": 10000 },
-            { "name": "Hạt Sen", "price": 10000 },
-            { "name": "Thạch Cà Phê", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 },
-            { "name": "Đào Miếng", "price": 10000 }
-        ],
-        "type": ["monmoiphaithu", "tratraicayhitea"],
-        "active": true
-    },
-    {
-        "name": "Cà Phê Đen Nóng",
-        "price": 39000,
-        "img": "http://localhost:3001/public/img-product/ca-phe-den-nong.png",
-        "des": "Một tách cà phê thơm ngào ngạt, phảng phất mùi cacao là món quà tự thưởng tuyệt vời nhất cho những ai mê đắm tinh chất nguyên bản nhất của cà phê.",
-        "size": [{ "name": "Nhỏ", "price": 0 }],
-        "topping": [
-            { "name": "Shot Espresso", "price": 10000 },
-            { "name": "Sốt Caramel", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["caphecloudfee", "monnong"],
-        "active": true
-    },
-    {
-        "name": "Cà Phê Sữa Nóng",
-        "price": 39000,
-        "img": "http://localhost:3001/public/img-product/cfsua-nong.png",
-        "des": "Cà phê phin kết hợp cùng sữa đặc là một sáng tạo đầy tự hào của người Việt, được xem món uống thương hiệu của Việt Nam.",
-        "size": [{ "name": "Nhỏ", "price": 0 }],
-        "topping": [
-            { "name": "Shot Espresso", "price": 10000 },
-            { "name": "Sốt Caramel", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["caphecloudfee", "monnong"],
-        "active": true
-    },
-    {
-        "name": "Espresso Nóng",
-        "price": 39000,
-        "img": "http://localhost:3001/public/img-product/espressoNong.png",
-        "des": "Tạm gác lại những ồn ào nơi phố thị và thử nhâm nhi ly cà phê Espresso hương vị đậm đà, tinh tế của The Coffee House để tận hưởng những khoảnh khắc diệu kỳ của cuộc sống.",
-        "size": [
-            { "name": "Nhỏ", "price": 0 },
-            { "name": "Vừa", "price": 4000 }
-        ],
-        "topping": [
-            { "name": "Shot Espresso", "price": 10000 },
-            { "name": "Sốt Caramel", "price": 10000 },
-            { "name": "Thạch Cà Phê", "price": 10000 },
-            { "name": "Kem Phô Mai Macchiato", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["caphecloudfee", "monnong"],
-        "active": true
-    },
-    {
-        "name": "Trà Đào Cam Sả - Nóng",
-        "price": 59000,
-        "img": "http://localhost:3001/public/img-product/tdcs-nong.png",
-        "des": "Có thể bạn chưa biết, Trà Đào Cam Sả chính là một trong những món đồ uống được rất nhiều thực khách gọi mỗi khi ghé thăm The Coffee House.",
-        "size": [{ "name": "Nhỏ", "price": 0 }],
-        "topping": [
-            { "name": "Trái Vải", "price": 10000 },
-            { "name": "Đào Miếng", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["tratraicayhitea", "monnong"],
-        "active": true
-    },
-    {
-        "name": "Trà Hạt Sen - Nóng",
-        "price": 59000,
-        "img": "http://localhost:3001/public/img-product/tra-sen-nong.png",
-        "des": "Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi thơm ngon.",
-        "size": [{ "name": "Nhỏ", "price": 0 }],
-        "topping": [
-            { "name": "Trái Vải", "price": 10000 },
-            { "name": "Đào Miếng", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["tratraicayhitea", "monnong"],
-        "active": true
-    },
-    {
-        "name": "Trà sữa Oolong Nướng (Nóng)",
-        "price": 55000,
-        "img": "http://localhost:3001/public/img-product/oolong-nuong-nong.png",
-        "des": "Nằm trong bộ sưu tập Trà sữa Nhà đúng gu, Trà sữa Oolong nướng trân châu là một mảnh ghép được tạo ra để đáp ứng gu đậm đà của các tín đồ trà sữa.",
-        "size": [{ "name": "Nhỏ", "price": 0 }],
-        "topping": [
-            { "name": "Shot Espresso", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["trasuacloudtea", "monnong"],
-        "active": true
-    },
-    {
-        "name": "Hồng Trà Sữa Nóng",
-        "price": 55000,
-        "img": "http://localhost:3001/public/img-product/hong-tra-sua-nong.png",
-        "des": "Trà đen nguyên lá âm ấm dịu nhẹ, quyện cùng lớp sữa thơm béo khó lẫn - hương vị ấm áp chuẩn gu trà, cho từng ngụm nhẹ nhàng, ngọt dịu lưu luyến mãi nơi cuống họng.",
-        "size": [{ "name": "Nhỏ", "price": 0 }],
-        "topping": [
-            { "name": "Shot Espresso", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["trasuacloudtea", "monnong"],
-        "active": true
-    },
-    {
-        "name": "CloudTea Trà Xanh Tây Bắc",
-        "price": 69000,
-        "img": "http://localhost:3001/public/img-product/tra-sua-tra-xanh-tay-bac-ly-thuy-tinh.png",
-        "des": "Trà đen nguyên lá âm ấm dịu nhẹ, quyện cùng lớp sữa thơm béo khó lẫn - hương vị ấm áp chuẩn gu trà, cho từng ngụm nhẹ nhàng, ngọt dịu lưu luyến mãi nơi cuống họng.",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [
-            { "name": "Shot Espresso", "price": 10000 },
-            { "name": "Trái Vải", "price": 10000 },
-            { "name": "Sốt Caramel", "price": 10000 },
-            { "name": "Đào Miếng", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["trasuacloudtea", "traxanhcloudtea"],
-        "active": true
-    },
-    {
-        "name": "Trà Xanh Latte (Nóng)",
-        "price": 45000,
-        "img": "http://localhost:3001/public/img-product/tra-xanh-latte-nong.png",
-        "des": "Trà Xanh Latte (Nóng) là phiên bản rõ vị trà nhất. Nhấp một ngụm, bạn chạm ngay vị trà xanh Tây Bắc chát nhẹ hoà cùng sữa nguyên kem thơm béo, đọng lại hậu vị ngọt ngào, êm dịu.",
-        "size": [
-            { "name": "Nhỏ", "price": 0 },
-            { "name": "Vừa", "price": 4000 }
-        ],
-        "topping": [
-            { "name": "Shot Espresso", "price": 10000 },
-            { "name": "Kem Phô Mai Macchiato", "price": 10000 },
-            { "name": "Thạch Cà Phê", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["traxanhcloudtea", "monnong"],
-        "active": true
-    },
-    {
-        "name": "Chocolate Nóng",
-        "price": 55000,
-        "img": "http://localhost:3001/public/img-product/chocolatenong.png",
-        "des": "Dù chọn lựa một ly sô cô la đá hay nóng đều mang đến cảm giác ấm áp thuần chất mà không một món đồ uống nào khác có thể thay thế.",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [{ "name": "Trân châu trắng", "price": 10000 }],
-        "type": ["traxanhcloudtea", "monnong"],
-        "active": true
-    },
-    {
-        "name": "Frosty Trà Xanh",
-        "price": 59000,
-        "img": "http://localhost:3001/public/img-product/frosty-tra-xanh",
-        "des": "Dù chọn lựa một ly sô cô la đá hay nóng đều mang đến cảm giác ấm áp thuần chất mà không một món đồ uống nào khác có thể thay thế.",
-        "size": [
-            { "name": "Nhỏ", "price": 0 },
-            { "name": "Vừa", "price": 6000 },
-            { "name": "Lớn", "price": 10000 }
-        ],
-        "topping": [
-            { "name": "Trân châu trắng", "price": 10000 },
-            { "name": "Kem Phô Mai Macchiato", "price": 10000 },
-            { "name": "Thạch Cà Phê", "price": 10000 },
-            { "name": "Shot Espresso", "price": 10000 }
-        ],
-        "type": ["daxayfrosty"],
-        "active": true
-    },
-    {
-        "name": "Spaghetti Bò Bằm",
-        "price": 69000,
-        "img": "http://localhost:3001/public/img-product/spaghetti-bo.png",
-        "des": "Sợi mì Ý mềm dai, rưới thêm sốt bò bằm cà chua sánh mịn, thơm lừng. Gắp một gắp, muốn gắp thêm mãi thôi!",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [],
-        "type": ["comnha"],
-        "active": true
-    },
-    {
-        "name": "Cơm Chiên Kim Chi",
-        "price": 59000,
-        "img": "http://localhost:3001/public/img-product/com-chien-kim-chi.png",
-        "des": "Cơm dẻo mềm từ gạo ST, xúc xích đậm đà và kim chi chua cay Nhà đảo đều tay thơm nức. Deadline có nóng cũng không bằng đâu bạn ơi. Ngơi tay ăn ngay!",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [],
-        "type": ["comnha"],
-        "active": true
-    },
-    {
-        "name": "Cơm Chiên Hải Sản",
-        "price": 59000,
-        "img": "http://localhost:3001/public/img-product/com-chien-hai-san.png",
-        "des": "Cơm chiên đầy ắp hải sản, thêm rau củ ngũ sắc giàu vitamin. Cơm ST dẻo thơm lắm, mời bạn thưởng thức nha!",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [],
-        "type": ["comnha"],
-        "active": true
-    },
-    {
-        "name": "Pate Chaud",
-        "price": 39000,
-        "img": "http://localhost:3001/public/img-product/pate-chaud.png",
-        "des": "Ngon nức lòng cùng nhân patê và thịt heo cuộn mình trong vỏ bánh ngàn lớp thơm bơ, giòn rụm. ",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [],
-        "type": ["comnha"],
-        "active": true
-    },
-    {
-        "name": "Butter Croissant",
-        "price": 29000,
-        "img": "http://localhost:3001/public/img-product/butter-croissant.png",
-        "des": "Cắn một miếng, vỏ bánh ngàn lớp giòn thơm bơ béo, rồi mịn tan trong miệng. Cực dính khi nhâm nhi Butter Croissant với cà phê hoặc chấm cùng các món nước có foam trứng của Nhà",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [],
-        "type": ["comnha"],
-        "active": true
-    },
-    {
-        "name": "Croissant trứng muối",
-        "price": 39000,
-        "img": "http://localhost:3001/public/img-product/croissant-trung-muoi.png",
-        "des": "Croissant trứng muối thơm lừng, bên ngoài vỏ bánh giòn hấp dẫn bên trong trứng muối vị ngon khó cưỡng. ",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [],
-        "type": ["comnha"],
-        "active": true
-    },
-    {
-        "name": "Mousse Caramel Dừa",
-        "price": 45000,
-        "img": "http://localhost:3001/public/img-product/hn-mousse-caramel-dua.png",
-        "des": "Thơm ngon 4 lớp, hòa quyện hấp dẫn bởi đôi tay tỉ mỉ của nghệ nhân bánh lành nghề. Caramel ngọt ngào “nên duyên” cùng cơm dừa nướng thơm lừng. Topping sô cô la thêm phần tận hưởng khi thưởng thức!",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [],
-        "type": ["comnha"],
-        "active": true
-    },
-    {
-        "name": "Mousse Sô Cô La Bỉ",
-        "price": 45000,
-        "img": "http://localhost:3001/public/img-product/hn-mousse-so-co-la-bi.png",
-        "des": "Sô cô la đen từ Bỉ khiến bạn mê mẩn từ miếng bánh đầu tiên. Đậm đà sô cô la, béo mịn kem sữa tươi, ngọt thanh mạch nha tự nhiên. Thử ngay không phải nghĩ!",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [],
-        "type": ["comnha"],
-        "active": true
-    },
-    {
-        "name": "Mousse Cà Phê CloudFee Dừa",
-        "price": 45000,
-        "img": "http://localhost:3001/public/img-product/hn-mousse-so-co-la-bi.png",
-        "des": "Thưởng thức hương vị êm mượt như mây của Cà Phê CloudFee Dừa trứ danh trong phiên bản bánh. Cà phê thanh nhẹ kết hợp cùng kem dừa béo thơm.",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [],
-        "type": ["comnha"],
-        "active": true
-    },
-    {
-        "name": "Mousse Cà Phê CloudFee Dừa",
-        "price": 45000,
-        "img": "http://localhost:3001/public/img-product/hn-mousse-so-co-la-bi.png",
-        "des": "Thưởng thức hương vị êm mượt như mây của Cà Phê CloudFee Dừa trứ danh trong phiên bản bánh. Cà phê thanh nhẹ kết hợp cùng kem dừa béo thơm.",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [],
-        "type": ["comnha"],
-        "active": true
-    },
-    {
-        "name": "Trà Đào Cam Sả Chai Fresh 500ML",
-        "price": 105000,
-        "img": "http://localhost:3001/public/img-product/Bottle_TraDao.png",
-        "des": "Không chỉ mang hương vị thơm ngon mà Trà đào cam sả còn có tác dụng tuyệt vời cho cơ thể như: Chống oxy hóa, tăng cường hệ miễn dịch, hỗ trợ giảm cân, Do đó, thức uống này dường như đã chiếm trọn tình cảm của các khách hàng yêu mến The Coffee House.",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [
-            { "name": "Trái vãi", "price": 10000 },
-            { "name": "Đào Miếng", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["chaifreshkhongda"],
-        "active": true
-    },
-    {
-        "name": "Hi-Tea Yuzu Trân Châu Chai Fresh 500ML",
-        "price": 105000,
-        "img": "http://localhost:3001/public/img-product/hitea-yuzu-tran-chau",
-        "des": "Không chỉ mang hương vị thơm ngon mà Trà đào cam sả còn có tác dụng tuyệt vời cho cơ thể như: Chống oxy hóa, tăng cường hệ miễn dịch, hỗ trợ giảm cân, Do đó, thức uống này dường như đã chiếm trọn tình cảm của các khách hàng yêu mến The Coffee House.",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [
-            { "name": "Shot Espresso", "price": 10000 },
-            { "name": "Sốt Caramel", "price": 10000 },
-            { "name": "Thạch Cà Phê", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["chaifreshkhongda"],
-        "active": true
-    },
-    {
-        "name": "Hi-Tea Vải Chai Fresh 500ML",
-        "price": 105000,
-        "img": "http://localhost:3001/public/img-product/hitea-vai.png",
-        "des": "Vẫn hương vị thơm ngon nay tiện lợi và tiết kiệm hơn với phiên bản Chai Fresh pha mới mỗi ngày.",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [
-            { "name": "Shot Espresso", "price": 10000 },
-            { "name": "Sốt Caramel", "price": 10000 },
-            { "name": "Thạch Cà Phê", "price": 10000 },
-            { "name": "Trân châu trắng", "price": 10000 }
-        ],
-        "type": ["chaifreshkhongda"],
-        "active": true
-    },
-    {
-        "name": "Cà Phê Đen Đá Túi (30 gói x 16g)",
-        "price": 116000,
-        "img": "http://localhost:3001/public/img-product/ca-phe-den-da-tui.png",
-        "des": "Cà Phê Đen Đá hoà tan The Coffee House với 100% hạt cà phê Robusta mang đến hương vị mạnh cực bốc, đậm đắng đầy lôi cuốn, đúng gu người Việt.",
-        "size": [{ "name": "Vừa", "price": 0 }],
-        "topping": [],
-        "type": ["caphetradonggoi"],
-        "active": true
-    },
-    {
-        "name": "Trân châu trắng",
-        "price": 10000,
-        "img": "http://localhost:3001/public/img-product/tran-chau-trang.png",
-        "des": "Trân châu trắng",
-        "size": [{ "name": "Nhỏ", "price": 0 }],
-        "topping": [],
-        "type": ["topping"],
-        "active": true
-    },
-    {
-        "name": "Trân châu trắng",
-        "price": 10000,
-        "img": "http://localhost:3001/public/img-product/tran-chau-trang.png",
-        "des": "Trân châu trắng",
-        "size": [{ "name": "Nhỏ", "price": 0 }],
-        "topping": [],
-        "type": ["topping"],
-        "active": true
-    },
-    {
-        "name": "Trái Vải",
-        "price": 10000,
-        "img": "http://localhost:3001/public/img-product/hat-sen.png",
-        "des": "Trái Vải",
-        "size": [{ "name": "Nhỏ", "price": 0 }],
-        "topping": [],
-        "type": ["topping"],
-        "active": true
-    }
+  {
+    "name": "Smoothie Xoài Nhiệt Đới Granola",
+    "price": 65000,
+    "img": "http://localhost:3001/public/img-product/xoai-granola.png",
+    "des": "Hương vị trái cây tươi mát gói trọn trong ly Smoothie Xoài Nhiệt Đới Granola. Xoài ngọt đậm quyện cùng sữa chua sánh mịn. Nhân đôi healthy với ngũ cốc Granola và topping hạt nổ sữa chua vui miệng.",
+    "size": [
+      { "name": "Nhỏ", "price": 0 },
+      { "name": "Vừa", "price": 4000 }
+    ],
+    "topping": [
+      { "name": "Trái Vải", "price": 10000 },
+      { "name": "Hạt Sen", "price": 10000 },
+      { "name": "Thạch Cà Phê", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 },
+      { "name": "Đào Miếng", "price": 10000 }
+    ],
+    "type": ["monmoiphaithu", "daxayfrosty"],
+    "active": true
+  },
+  {
+    "name": "Smoothie Phúc Bồn Tử Granola",
+    "price": 65000,
+    "img": "http://localhost:3001/public/img-product/phuc-bon-tu-granola.png",
+    "des": "Lấy đà vào hạ cùng Smoothie Phúc Bồn Tử Granola chua chua, ngọt ngọt. Hút một hơi mát lành với sữa chua sánh mịn, ngũ cốc Granola dinh dưỡng và hạt nổ sữa chua. Hạ gần bên ta!",
+    "size": [
+      { "name": "Nhỏ", "price": 0 },
+      { "name": "Vừa", "price": 4000 }
+    ],
+    "topping": [
+      { "name": "Trái Vải", "price": 10000 },
+      { "name": "Hạt Sen", "price": 10000 },
+      { "name": "Thạch Cà Phê", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 },
+      { "name": "Đào Miếng", "price": 10000 }
+    ],
+    "type": ["monmoiphaithu", "daxayfrosty"],
+    "active": true
+  },
+  {
+    "name": "Oolong Tứ Quý Vải",
+    "price": 49000,
+    "img": "http://localhost:3001/public/img-product/vai-xuan.png",
+    "des": "Đậm hương trà, thanh mát sắc xuân với Oolong Tứ Quý Vải. Cảm nhận hương hoa đầu mùa, hòa quyện cùng vị vải chín mọng căng tràn sức sống.",
+    "size": [
+      { "name": "Nhỏ", "price": 0 },
+      { "name": "Vừa", "price": 10000 },
+      { "name": "Lớn", "price": 16000 }
+    ],
+    "topping": [
+      { "name": "Trái Vải", "price": 10000 },
+      { "name": "Trái Nhãn", "price": 10000 },
+      { "name": "Kem Phô Mai Macchiato", "price": 10000 },
+      { "name": "Hạt Sen", "price": 10000 },
+      { "name": "Thạch Cà Phê", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 },
+      { "name": "Đào Miếng", "price": 10000 }
+    ],
+    "type": ["monmoiphaithu", "tratraicayhitea"],
+    "active": true
+  },
+  {
+    "name": "Cà Phê Đen Nóng",
+    "price": 39000,
+    "img": "http://localhost:3001/public/img-product/ca-phe-den-nong.png",
+    "des": "Một tách cà phê thơm ngào ngạt, phảng phất mùi cacao là món quà tự thưởng tuyệt vời nhất cho những ai mê đắm tinh chất nguyên bản nhất của cà phê.",
+    "size": [{ "name": "Nhỏ", "price": 0 }],
+    "topping": [
+      { "name": "Shot Espresso", "price": 10000 },
+      { "name": "Sốt Caramel", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["caphecloudfee", "monnong"],
+    "active": true
+  },
+  {
+    "name": "Cà Phê Sữa Nóng",
+    "price": 39000,
+    "img": "http://localhost:3001/public/img-product/cfsua-nong.png",
+    "des": "Cà phê phin kết hợp cùng sữa đặc là một sáng tạo đầy tự hào của người Việt, được xem món uống thương hiệu của Việt Nam.",
+    "size": [{ "name": "Nhỏ", "price": 0 }],
+    "topping": [
+      { "name": "Shot Espresso", "price": 10000 },
+      { "name": "Sốt Caramel", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["caphecloudfee", "monnong"],
+    "active": true
+  },
+  {
+    "name": "Espresso Nóng",
+    "price": 39000,
+    "img": "http://localhost:3001/public/img-product/espressoNong.png",
+    "des": "Tạm gác lại những ồn ào nơi phố thị và thử nhâm nhi ly cà phê Espresso hương vị đậm đà, tinh tế của The Coffee House để tận hưởng những khoảnh khắc diệu kỳ của cuộc sống.",
+    "size": [
+      { "name": "Nhỏ", "price": 0 },
+      { "name": "Vừa", "price": 4000 }
+    ],
+    "topping": [
+      { "name": "Shot Espresso", "price": 10000 },
+      { "name": "Sốt Caramel", "price": 10000 },
+      { "name": "Thạch Cà Phê", "price": 10000 },
+      { "name": "Kem Phô Mai Macchiato", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["caphecloudfee", "monnong"],
+    "active": true
+  },
+  {
+    "name": "Trà Đào Cam Sả - Nóng",
+    "price": 59000,
+    "img": "http://localhost:3001/public/img-product/tdcs-nong.png",
+    "des": "Có thể bạn chưa biết, Trà Đào Cam Sả chính là một trong những món đồ uống được rất nhiều thực khách gọi mỗi khi ghé thăm The Coffee House.",
+    "size": [{ "name": "Nhỏ", "price": 0 }],
+    "topping": [
+      { "name": "Trái Vải", "price": 10000 },
+      { "name": "Đào Miếng", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["tratraicayhitea", "monnong"],
+    "active": true
+  },
+  {
+    "name": "Trà Hạt Sen - Nóng",
+    "price": 59000,
+    "img": "http://localhost:3001/public/img-product/tra-sen-nong.png",
+    "des": "Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi thơm ngon.",
+    "size": [{ "name": "Nhỏ", "price": 0 }],
+    "topping": [
+      { "name": "Trái Vải", "price": 10000 },
+      { "name": "Đào Miếng", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["tratraicayhitea", "monnong"],
+    "active": true
+  },
+  {
+    "name": "Trà sữa Oolong Nướng (Nóng)",
+    "price": 55000,
+    "img": "http://localhost:3001/public/img-product/oolong-nuong-nong.png",
+    "des": "Nằm trong bộ sưu tập Trà sữa Nhà đúng gu, Trà sữa Oolong nướng trân châu là một mảnh ghép được tạo ra để đáp ứng gu đậm đà của các tín đồ trà sữa.",
+    "size": [{ "name": "Nhỏ", "price": 0 }],
+    "topping": [
+      { "name": "Shot Espresso", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["trasuacloudtea", "monnong"],
+    "active": true
+  },
+  {
+    "name": "Hồng Trà Sữa Nóng",
+    "price": 55000,
+    "img": "http://localhost:3001/public/img-product/hong-tra-sua-nong.png",
+    "des": "Trà đen nguyên lá âm ấm dịu nhẹ, quyện cùng lớp sữa thơm béo khó lẫn - hương vị ấm áp chuẩn gu trà, cho từng ngụm nhẹ nhàng, ngọt dịu lưu luyến mãi nơi cuống họng.",
+    "size": [{ "name": "Nhỏ", "price": 0 }],
+    "topping": [
+      { "name": "Shot Espresso", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["trasuacloudtea", "monnong"],
+    "active": true
+  },
+  {
+    "name": "CloudTea Trà Xanh Tây Bắc",
+    "price": 69000,
+    "img": "http://localhost:3001/public/img-product/tra-sua-tra-xanh-tay-bac-ly-thuy-tinh.png",
+    "des": "Trà đen nguyên lá âm ấm dịu nhẹ, quyện cùng lớp sữa thơm béo khó lẫn - hương vị ấm áp chuẩn gu trà, cho từng ngụm nhẹ nhàng, ngọt dịu lưu luyến mãi nơi cuống họng.",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [
+      { "name": "Shot Espresso", "price": 10000 },
+      { "name": "Trái Vải", "price": 10000 },
+      { "name": "Sốt Caramel", "price": 10000 },
+      { "name": "Đào Miếng", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["trasuacloudtea", "traxanhcloudtea"],
+    "active": true
+  },
+  {
+    "name": "Trà Xanh Latte (Nóng)",
+    "price": 45000,
+    "img": "http://localhost:3001/public/img-product/tra-xanh-latte-nong.png",
+    "des": "Trà Xanh Latte (Nóng) là phiên bản rõ vị trà nhất. Nhấp một ngụm, bạn chạm ngay vị trà xanh Tây Bắc chát nhẹ hoà cùng sữa nguyên kem thơm béo, đọng lại hậu vị ngọt ngào, êm dịu.",
+    "size": [
+      { "name": "Nhỏ", "price": 0 },
+      { "name": "Vừa", "price": 4000 }
+    ],
+    "topping": [
+      { "name": "Shot Espresso", "price": 10000 },
+      { "name": "Kem Phô Mai Macchiato", "price": 10000 },
+      { "name": "Thạch Cà Phê", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["traxanhcloudtea", "monnong"],
+    "active": true
+  },
+  {
+    "name": "Chocolate Nóng",
+    "price": 55000,
+    "img": "http://localhost:3001/public/img-product/chocolatenong.png",
+    "des": "Dù chọn lựa một ly sô cô la đá hay nóng đều mang đến cảm giác ấm áp thuần chất mà không một món đồ uống nào khác có thể thay thế.",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [{ "name": "Trân châu trắng", "price": 10000 }],
+    "type": ["traxanhcloudtea", "monnong"],
+    "active": true
+  },
+  {
+    "name": "Frosty Trà Xanh",
+    "price": 59000,
+    "img": "http://localhost:3001/public/img-product/frosty-tra-xanh",
+    "des": "Dù chọn lựa một ly sô cô la đá hay nóng đều mang đến cảm giác ấm áp thuần chất mà không một món đồ uống nào khác có thể thay thế.",
+    "size": [
+      { "name": "Nhỏ", "price": 0 },
+      { "name": "Vừa", "price": 6000 },
+      { "name": "Lớn", "price": 10000 }
+    ],
+    "topping": [
+      { "name": "Trân châu trắng", "price": 10000 },
+      { "name": "Kem Phô Mai Macchiato", "price": 10000 },
+      { "name": "Thạch Cà Phê", "price": 10000 },
+      { "name": "Shot Espresso", "price": 10000 }
+    ],
+    "type": ["daxayfrosty"],
+    "active": true
+  },
+  {
+    "name": "Spaghetti Bò Bằm",
+    "price": 69000,
+    "img": "http://localhost:3001/public/img-product/spaghetti-bo.png",
+    "des": "Sợi mì Ý mềm dai, rưới thêm sốt bò bằm cà chua sánh mịn, thơm lừng. Gắp một gắp, muốn gắp thêm mãi thôi!",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [],
+    "type": ["comnha"],
+    "active": true
+  },
+  {
+    "name": "Cơm Chiên Kim Chi",
+    "price": 59000,
+    "img": "http://localhost:3001/public/img-product/com-chien-kim-chi.png",
+    "des": "Cơm dẻo mềm từ gạo ST, xúc xích đậm đà và kim chi chua cay Nhà đảo đều tay thơm nức. Deadline có nóng cũng không bằng đâu bạn ơi. Ngơi tay ăn ngay!",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [],
+    "type": ["comnha"],
+    "active": true
+  },
+  {
+    "name": "Cơm Chiên Hải Sản",
+    "price": 59000,
+    "img": "http://localhost:3001/public/img-product/com-chien-hai-san.png",
+    "des": "Cơm chiên đầy ắp hải sản, thêm rau củ ngũ sắc giàu vitamin. Cơm ST dẻo thơm lắm, mời bạn thưởng thức nha!",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [],
+    "type": ["comnha"],
+    "active": true
+  },
+  {
+    "name": "Pate Chaud",
+    "price": 39000,
+    "img": "http://localhost:3001/public/img-product/pate-chaud.png",
+    "des": "Ngon nức lòng cùng nhân patê và thịt heo cuộn mình trong vỏ bánh ngàn lớp thơm bơ, giòn rụm. ",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [],
+    "type": ["comnha"],
+    "active": true
+  },
+  {
+    "name": "Butter Croissant",
+    "price": 29000,
+    "img": "http://localhost:3001/public/img-product/butter-croissant.png",
+    "des": "Cắn một miếng, vỏ bánh ngàn lớp giòn thơm bơ béo, rồi mịn tan trong miệng. Cực dính khi nhâm nhi Butter Croissant với cà phê hoặc chấm cùng các món nước có foam trứng của Nhà",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [],
+    "type": ["comnha"],
+    "active": true
+  },
+  {
+    "name": "Croissant trứng muối",
+    "price": 39000,
+    "img": "http://localhost:3001/public/img-product/croissant-trung-muoi.png",
+    "des": "Croissant trứng muối thơm lừng, bên ngoài vỏ bánh giòn hấp dẫn bên trong trứng muối vị ngon khó cưỡng. ",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [],
+    "type": ["comnha"],
+    "active": true
+  },
+  {
+    "name": "Mousse Caramel Dừa",
+    "price": 45000,
+    "img": "http://localhost:3001/public/img-product/hn-mousse-caramel-dua.png",
+    "des": "Thơm ngon 4 lớp, hòa quyện hấp dẫn bởi đôi tay tỉ mỉ của nghệ nhân bánh lành nghề. Caramel ngọt ngào “nên duyên” cùng cơm dừa nướng thơm lừng. Topping sô cô la thêm phần tận hưởng khi thưởng thức!",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [],
+    "type": ["comnha"],
+    "active": true
+  },
+  {
+    "name": "Mousse Sô Cô La Bỉ",
+    "price": 45000,
+    "img": "http://localhost:3001/public/img-product/hn-mousse-so-co-la-bi.png",
+    "des": "Sô cô la đen từ Bỉ khiến bạn mê mẩn từ miếng bánh đầu tiên. Đậm đà sô cô la, béo mịn kem sữa tươi, ngọt thanh mạch nha tự nhiên. Thử ngay không phải nghĩ!",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [],
+    "type": ["comnha"],
+    "active": true
+  },
+  {
+    "name": "Mousse Cà Phê CloudFee Dừa",
+    "price": 45000,
+    "img": "http://localhost:3001/public/img-product/hn-mousse-so-co-la-bi.png",
+    "des": "Thưởng thức hương vị êm mượt như mây của Cà Phê CloudFee Dừa trứ danh trong phiên bản bánh. Cà phê thanh nhẹ kết hợp cùng kem dừa béo thơm.",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [],
+    "type": ["comnha"],
+    "active": true
+  },
+  {
+    "name": "Mousse Cà Phê CloudFee Dừa",
+    "price": 45000,
+    "img": "http://localhost:3001/public/img-product/hn-mousse-so-co-la-bi.png",
+    "des": "Thưởng thức hương vị êm mượt như mây của Cà Phê CloudFee Dừa trứ danh trong phiên bản bánh. Cà phê thanh nhẹ kết hợp cùng kem dừa béo thơm.",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [],
+    "type": ["comnha"],
+    "active": true
+  },
+  {
+    "name": "Trà Đào Cam Sả Chai Fresh 500ML",
+    "price": 105000,
+    "img": "http://localhost:3001/public/img-product/Bottle_TraDao.png",
+    "des": "Không chỉ mang hương vị thơm ngon mà Trà đào cam sả còn có tác dụng tuyệt vời cho cơ thể như: Chống oxy hóa, tăng cường hệ miễn dịch, hỗ trợ giảm cân, Do đó, thức uống này dường như đã chiếm trọn tình cảm của các khách hàng yêu mến The Coffee House.",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [
+      { "name": "Trái vãi", "price": 10000 },
+      { "name": "Đào Miếng", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["chaifreshkhongda"],
+    "active": true
+  },
+  {
+    "name": "Hi-Tea Yuzu Trân Châu Chai Fresh 500ML",
+    "price": 105000,
+    "img": "http://localhost:3001/public/img-product/hitea-yuzu-tran-chau",
+    "des": "Không chỉ mang hương vị thơm ngon mà Trà đào cam sả còn có tác dụng tuyệt vời cho cơ thể như: Chống oxy hóa, tăng cường hệ miễn dịch, hỗ trợ giảm cân, Do đó, thức uống này dường như đã chiếm trọn tình cảm của các khách hàng yêu mến The Coffee House.",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [
+      { "name": "Shot Espresso", "price": 10000 },
+      { "name": "Sốt Caramel", "price": 10000 },
+      { "name": "Thạch Cà Phê", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["chaifreshkhongda"],
+    "active": true
+  },
+  {
+    "name": "Hi-Tea Vải Chai Fresh 500ML",
+    "price": 105000,
+    "img": "http://localhost:3001/public/img-product/hitea-vai.png",
+    "des": "Vẫn hương vị thơm ngon nay tiện lợi và tiết kiệm hơn với phiên bản Chai Fresh pha mới mỗi ngày.",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [
+      { "name": "Shot Espresso", "price": 10000 },
+      { "name": "Sốt Caramel", "price": 10000 },
+      { "name": "Thạch Cà Phê", "price": 10000 },
+      { "name": "Trân châu trắng", "price": 10000 }
+    ],
+    "type": ["chaifreshkhongda"],
+    "active": true
+  },
+  {
+    "name": "Cà Phê Đen Đá Túi (30 gói x 16g)",
+    "price": 116000,
+    "img": "http://localhost:3001/public/img-product/ca-phe-den-da-tui.png",
+    "des": "Cà Phê Đen Đá hoà tan The Coffee House với 100% hạt cà phê Robusta mang đến hương vị mạnh cực bốc, đậm đắng đầy lôi cuốn, đúng gu người Việt.",
+    "size": [{ "name": "Vừa", "price": 0 }],
+    "topping": [],
+    "type": ["caphetradonggoi"],
+    "active": true
+  },
+  {
+    "name": "Trân châu trắng",
+    "price": 10000,
+    "img": "http://localhost:3001/public/img-product/tran-chau-trang.png",
+    "des": "Trân châu trắng",
+    "size": [{ "name": "Nhỏ", "price": 0 }],
+    "topping": [],
+    "type": ["topping"],
+    "active": true
+  },
+  {
+    "name": "Trân châu trắng",
+    "price": 10000,
+    "img": "http://localhost:3001/public/img-product/tran-chau-trang.png",
+    "des": "Trân châu trắng",
+    "size": [{ "name": "Nhỏ", "price": 0 }],
+    "topping": [],
+    "type": ["topping"],
+    "active": true
+  },
+  {
+    "name": "Trái Vải",
+    "price": 10000,
+    "img": "http://localhost:3001/public/img-product/hat-sen.png",
+    "des": "Trái Vải",
+    "size": [{ "name": "Nhỏ", "price": 0 }],
+    "topping": [],
+    "type": ["topping"],
+    "active": true
+  }
 ]

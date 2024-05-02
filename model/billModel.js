@@ -12,13 +12,15 @@ const schema = new mongoose.Schema({
 
     status: {
         type: String,
-        enum: ["Chuẩn bị", "Đóng Gói", "Đang Giao", "Giao Thành công"],
+        enum: ["Chuẩn bị", "Đóng gói", "Đang giao", "Giao thành công"],
     },
     date: {
         type: String,
         required: true,
         default: new Date().getTime(),
     },
+    connect: { type: String },
+    tokentotal: { type: Number },
 });
 
 const model = mongoose.model("bill", schema);

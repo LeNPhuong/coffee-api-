@@ -4,7 +4,7 @@ const catchAsync = require("./../authen/catchAsync");
 
 exports.coffe = catchAsync(async (req, res, next) => {
     const drink = await Coffe.find();
-    const typedrink = await TypeCoffe.find();
+    const typedrink = await TypeCoffe.find({ active: true });
     res.status(200).json({
         message: "Succes",
         data: {

@@ -4,7 +4,7 @@ const bcrypt = require("bcryptjs");
 const crypto = require("crypto");
 
 const schema = new mongoose.Schema({
-    name: { 
+    name: {
         type: String,
         required: [true, "Vui lòng nhập tên"],
     },
@@ -55,9 +55,8 @@ const schema = new mongoose.Schema({
     tokenauthtime: { type: Date, select: false },
     tokenresetpw: { type: String, select: false },
     tokenresettime: { type: Date, select: false },
-    bill: { type: {} },
+    bill: { type: [] },
     totaltoken: { type: Number },
-    map: { type: String },
 });
 // mã hoá
 schema.pre("save", async function (next) {
@@ -72,18 +71,12 @@ schema.methods.checkPassword = function (pwEnter, pwUser) {
 };
 //
 schema.methods.hashToken = function (token) {
-    return crypto
-        .createHmac("sha256", process.env.JWT_SECRECT)
-        .update(token)
-        .digest("hex");
+    return crypto.createHmac("sha256", process.env.JWT_SECRECT).update(token).digest("hex");
 };
 // lấy mã đặt lại mật khẩu
 schema.methods.getTokenreset = function () {
     const token = crypto.randomBytes(6).toString("hex");
-    const hash = crypto
-        .createHmac("sha256", process.env.JWT_SECRECT)
-        .update(token)
-        .digest("hex");
+    const hash = crypto.createHmac("sha256", process.env.JWT_SECRECT).update(token).digest("hex");
 
     return { token, hash };
 };

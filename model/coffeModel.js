@@ -11,10 +11,6 @@ const toppingSchema = new mongoose.Schema({
   price: { type: Number },
 });
 
-const typeSchema = new mongoose.Schema({
-  name: { type: String },
-});
-
 const schema = new mongoose.Schema({
   name: {
     type: String,

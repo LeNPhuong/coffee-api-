@@ -4,35 +4,33 @@ const catchAsync = require("./../authen/catchAsync");
 const { checkBlackList } = require("./checkBlackList");
 
 exports.authUser = catchAsync(async (req, res, next) => {
-    const token = req.cookies.jwt;
-    const parsetoken = token.split(" ")[1];
+  const token = req.cookies.jwt;
+  if (!token) {
+    throw new Error("Không thể thực hiện thao tác này");
+  }
+  const parsetoken = token.split(" ")[1];
+  const blacklist = await checkBlackList(parsetoken);
+  if (blacklist) {
+    throw new Error("Không thể thực hiện thao tác này");
+  }
 
-    const blacklist = await checkBlackList(parsetoken);
-    if (blacklist) {
-        throw new Error("Không thể thực hiện thao tác này");
+  const result = await Jwt.verify(parsetoken, process.env.JWT_SECRECT, function (err, decoded) {
+    if (err) {
+      return err.message;
     }
+    return decoded;
+  });
 
-    const result = await Jwt.verify(
-        parsetoken,
-        process.env.JWT_SECRECT,
-        function (err, decoded) {
-            if (err) {
-                return err.message;
-            }
-            return decoded;
-        },
-    );
+  if (result === "jwt expired") {
+    throw new Error("Không thể thực hiện thao tác này");
+  }
 
-    if (result === "jwt expired") {
-        throw new Error("Không thể thực hiện thao tác này");
-    }
+  const user = await User.findById(result.id).select("+password");
 
-    const user = await User.findById(result.id).select("+password");
+  if (!user) {
+    throw new Error("Không thể thực hiện thao tác này");
+  }
 
-    if (!user) {
-        throw new Error("Không thể thực hiện thao tác này");
-    }
-
-    req.body.user = user;
-    next();
+  req.body.user = user;
+  next();
 });

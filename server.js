@@ -10,9 +10,9 @@ mongoose
     console.log("Connect succes");
   })
   .catch(() => {
-    console.log("Connect Failed");
-  });
+    console.log("Connect Failed"); 
+  }); 
 
-const app = require("./app");
+const app = require("./app"); 
 
 app.listen(process.env.PORT || 3001);
